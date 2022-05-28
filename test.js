@@ -10,7 +10,7 @@ try {
     const addr = keccak256("");
     const hexProof = merkleTree.getHexProof(addr);
 
-    console.log("hexProof: "+ hexProof);
+    console.log("hexProof: ['"+ hexProof +"']");
     console.log("Verification: "+ merkleTree.verify(hexProof, addr, rootHash));
 } catch (e) {
     console.log(e);
