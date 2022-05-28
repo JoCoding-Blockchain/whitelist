@@ -1,0 +1,17 @@
+{
+  "name": "whitelist",
+  "version": "1.0.0",
+  "description": "Make Whitelist MerkleTree Roothash made by youtuber JoCoding",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JoCoding",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "keccak256": "^1.0.6",
+    "merkletreejs": "^0.2.31"
+  }
+}
